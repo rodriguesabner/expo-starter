@@ -9,10 +9,6 @@ const OnBoardingScreen = () => {
     const navigation = useNavigation();
 
     function onPress() {
-        // navigation.navigate('Main', {
-        //     screen: 'Home',
-        // });
-
         navigation.reset({
             index: 0,
             routes: [{name: 'Main'}],
@@ -24,10 +20,10 @@ const OnBoardingScreen = () => {
             <StatusBar style="light"/>
             <WrapperWelcome>
                 <Title>
-                    Bem vindo ao
+                    Welcome at
                 </Title>
                 <AppName>
-                    IBaby 🐣
+                    AppName
                 </AppName>
             </WrapperWelcome>
 
@@ -35,7 +31,7 @@ const OnBoardingScreen = () => {
 
             <WrapperButton>
                 <Button
-                    title={"Iniciar"}
+                    title={"Get Started"}
                     onPress={onPress}
                 />
             </WrapperButton>

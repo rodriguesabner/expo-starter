@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ibaby",
-    "slug": "ibaby",
+    "name": "app-name",
+    "slug": "app-name",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

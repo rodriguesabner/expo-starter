@@ -10,33 +10,8 @@ const ChatMessage = ({route, navigation}) => {
 
     const [messages, setMessages] = useState([{
         id: 1,
-        id_user: 1,
-        message: 'Oii, td bem? fiquei interessado no produto. Ainda está vendendo?',
-        date: '2020-01-01',
-    }, {
-        id: 2,
         id_user: 2,
-        message: 'Olá, bem. estou sim. Aceito troca tb',
-        date: '2020-01-01',
-    }, {
-        id: 3,
-        id_user: 1,
-        message: 'Showwwwww, vamos lá. Pode me passar mais algumas infos? Esotu um pouco cuiroso 😂',
-        date: '2020-01-01',
-    }, {
-        id: 4,
-        id_user: 1,
-        message: 'Tipo, quanto tempo de uso o produto tem? Ja foi utilizado antes? Está em bom estado?',
-        date: '2020-01-01',
-    }, {
-        id: 5,
-        id_user: 1,
-        message: 'Se puder mandar msg tbm, agradeço',
-        date: '2020-01-01',
-    }, {
-        id: 6,
-        id_user: 2,
-        message: 'Ok. vamos fazer assim, tenta enviar uma mensagem pra mim. Clica no campo de enviar uma mensagem, digita alguma coisa e aperta o botão de enviar. Aí nós conversamos, pode ser?!',
+        message: 'Welcome to the chat',
         date: '2020-01-01',
     }]);
     const [message, setMessage] = useState("");
