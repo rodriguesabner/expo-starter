@@ -1,6 +1,6 @@
-# IBaby Front-end
+# Expo Starter
 
-Este repositório é um aplicativo feito em **React Native** (Expo) para o projeto **IBaby**. A escolha do React Native foi pelo motivo da multi-plataforma, podendo ser buildado tanto para Android quanto Iphone.
+Este repo é um pack inicial para o Expo.
 
 ## Installation
 

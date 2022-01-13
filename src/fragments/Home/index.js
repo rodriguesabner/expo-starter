@@ -1,7 +1,6 @@
 import React from "react";
 import {Container, WrapperContent} from "./styles";
 import TopContent from "../../components/TopContent";
-import SearchBar from "../../components/Home/SearchBar";
 import {ScrollView} from "react-native";
 
 const HomeScreen = () => {
@@ -17,8 +16,6 @@ const HomeScreen = () => {
                         showSecondLine={true}
                         subTitle={"Abner 👋"}
                     />
-
-                    <SearchBar/>
 
                 </WrapperContent>
             </ScrollView>
